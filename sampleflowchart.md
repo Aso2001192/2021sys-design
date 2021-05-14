@@ -44,12 +44,4 @@ end
 
 deactivate ユーザー
 @enduml
-
-@startuml
-ユーザー->webサーバー:
-webサーバー->DBサーバー:
-DBサーバー->DBサーバー:
-DBサーバー->webサーバー:
-webサーバー->ユーザー:
-@enduml
 ```
